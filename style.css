@@ -10,12 +10,41 @@
     background-image: linear-gradient(orange,tomato);
     text-decoration: none;
     padding: 10px 20px;
+    border-radius: 6px;
 }
 .middle{
     display: flex;
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+    padding: 70px;
 }
 .image img{
-    width: 100%;
+    width: 650px;
 }
+.content{
+    
+}
+h1{
+    margin: 20px 0;
+    font-size: 45px;
+}
+h3{
+    font-size: 22px;
+    padding-top: 16px;
+}
+p{
+    margin: 20px 0;
+    text-align: justify;
+    width: 70%;
+    font-size: 20px;
+    color: #3b3434;
+}
+.second{
+    display: flex;
+    
+}
+.dream img{
+    width: 100%;
+    text-align: center;
+}
+
