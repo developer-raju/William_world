@@ -34,7 +34,6 @@ h3{
 }
 p{
     margin: 20px 0;
-    text-align: justify;
     width: 70%;
     font-size: 20px;
     color: #3b3434;
@@ -52,6 +51,29 @@ p{
 }
 .experiences{
     display: flex;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
-
-
+.dev{
+     width: 40%; 
+     box-shadow: 10px 10px 30px gray;
+     margin: 0 5%;
+}
+.dev h2{
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+.dev h3{
+    padding-left: 30px;
+}
+.dev p{
+    padding-left: 30px;
+    width: 550px;
+    text-align: justify;
+}
+.footer{
+    text-align: center;
+    color: rgb(107, 100, 100);
+}
